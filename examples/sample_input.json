@@ -1,0 +1,90 @@
+{
+  "profile": {
+    "income_streams": [
+      {
+        "name": "Salary",
+        "amount": 5000.0,
+        "frequency": "monthly"
+      }
+    ],
+    "expenses": [
+      {
+        "name": "Rent",
+        "amount": 1500.0,
+        "is_essential": true
+      },
+      {
+        "name": "Utilities",
+        "amount": 200.0,
+        "is_essential": true
+      },
+      {
+        "name": "Groceries",
+        "amount": 400.0,
+        "is_essential": true
+      },
+      {
+        "name": "Transportation",
+        "amount": 300.0,
+        "is_essential": true
+      },
+      {
+        "name": "Insurance",
+        "amount": 200.0,
+        "is_essential": true
+      },
+      {
+        "name": "Entertainment",
+        "amount": 200.0,
+        "is_essential": false
+      },
+      {
+        "name": "Dining Out",
+        "amount": 150.0,
+        "is_essential": false
+      }
+    ],
+    "current_savings": 5000.0,
+    "current_investments": 2000.0,
+    "risk_tolerance": "moderate",
+    "time_horizon_months": 60,
+    "emergency_fund_months": 3.0
+  },
+  "debts": {
+    "debts": [
+      {
+        "name": "Credit Card A",
+        "debt_type": "credit_card",
+        "current_balance": 8000.0,
+        "annual_interest_rate": 0.1899,
+        "minimum_payment": 200.0,
+        "due_day": 15
+      },
+      {
+        "name": "Credit Card B",
+        "debt_type": "credit_card",
+        "current_balance": 3500.0,
+        "annual_interest_rate": 0.2399,
+        "minimum_payment": 100.0,
+        "due_day": 20
+      },
+      {
+        "name": "Student Loan",
+        "debt_type": "student_loan",
+        "current_balance": 15000.0,
+        "annual_interest_rate": 0.0549,
+        "minimum_payment": 180.0,
+        "due_day": 1
+      },
+      {
+        "name": "Auto Loan",
+        "debt_type": "auto_loan",
+        "current_balance": 12000.0,
+        "annual_interest_rate": 0.0649,
+        "minimum_payment": 250.0,
+        "due_day": 10
+      }
+    ]
+  },
+  "strategy": "avalanche"
+}
